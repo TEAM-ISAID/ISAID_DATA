@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/ETF_상세/전종목기본정보.csv" charset="EUC-KR" />
+    <file url="file://$PROJECT_DIR$/날짜별_ETF_정보/20250529.csv" charset="EUC-KR" />
+    <file url="file://$PROJECT_DIR$/날짜별_ETF_정보/20250530.csv" charset="EUC-KR" />
+    <file url="file://$PROJECT_DIR$/날짜별_ETF_정보/20250604.csv" charset="EUC-KR" />
+    <file url="file://$PROJECT_DIR$/날짜별_ETF_정보/20250605.csv" charset="EUC-KR" />
+    <file url="file://$PROJECT_DIR$/날짜별_ETF_정보/20250609.csv" charset="EUC-KR" />
+    <file url="file://$PROJECT_DIR$/카테고리/ACE_주식.csv" charset="EUC-KR" />
+    <file url="file://$PROJECT_DIR$/카테고리/KODEX_주식.csv" charset="EUC-KR" />
+    <file url="file://$PROJECT_DIR$/카테고리/KODEX_주식.csv" charset="EUC-KR" />
+    <file url="file://$PROJECT_DIR$/카테고리/TIGER_주식.csv" charset="EUC-KR" />
+    <file url="file://$PROJECT_DIR$/카테고리/혼합자산.csv" charset="EUC-KR" />
+    <file url="file://$PROJECT_DIR$/카테고리/혼합자산.csv" charset="EUC-KR" />
+    <file url="file://$PROJECT_DIR$/카테고리/혼합자산.csv" charset="EUC-KR" />
+    <file url="file://$PROJECT_DIR$/카테고리/주식.csv" charset="EUC-KR" />
+    <file url="file://$PROJECT_DIR$/카테고리/주식.csv" charset="EUC-KR" />
+    <file url="file://$PROJECT_DIR$/카테고리/주식.csv" charset="EUC-KR" />
+    <file url="file://$PROJECT_DIR$/혼합자산/ACE_혼합자산.csv" charset="EUC-KR" />
+    <file url="file://$PROJECT_DIR$/혼합자산/KODEX_혼합자산.csv" charset="EUC-KR" />
+    <file url="file://$PROJECT_DIR$/혼합자산/TIGER_혼합자산.csv" charset="EUC-KR" />
+  </component>
+</project>
