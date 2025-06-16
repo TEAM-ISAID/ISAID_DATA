@@ -35,7 +35,7 @@ def clean_value(val, target_type):
 cur.execute("SELECT id, full_path FROM etf_category")
 category_map = {row[1]: row[0] for row in cur.fetchall()}
 
-# 삽입
+# 삽입, 기초지수명은 기초지수와 동일, 추후 기초지수명(idx_obj_index_name) 제거
 for index, row in df.iterrows():
     try:
         full_path = row["분류체계"]

@@ -32,7 +32,7 @@ cur.execute("SELECT id, issue_code FROM etf")
 etf_code_map = {row[1]: row[0] for row in cur.fetchall()}
 
 # 폴더 내 모든 CSV 파일 처리
-folder_path = "etf_daily_trading"
+folder_path = "new"
 for file_name in os.listdir(folder_path):
     if file_name.endswith(".csv"):
         file_path = os.path.join(folder_path, file_name)
