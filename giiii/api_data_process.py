@@ -26,11 +26,11 @@ def fetch_etf_daily_trade_data(base_date: str):
         return None
 
 if __name__ == "__main__":
-    base_date = "20220602"
+    base_date = "20250616"
     result = fetch_etf_daily_trade_data(base_date)
     if result:
         import pandas as pd
         df = pd.DataFrame(result)
-        output_path = f"신규/{base_date}.csv"
+        output_path = f"giiii/신규/{base_date}.csv"
         df.to_csv(output_path, index=False, encoding='utf-8-sig')
         print(f"데이터 저장 완료: {output_path}")

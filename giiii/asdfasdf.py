@@ -57,7 +57,7 @@ def process_etf_files_with_codes(input_folder, codes_folder):
 
 
 # 실행 경로 지정
-input_folder = "날짜별_ETF_정보"  # 날짜별 파일 저장된 폴더
+input_folder = "신규"  # 날짜별 파일 저장된 폴더
 codes_folder = "카테고리"  # 종목코드 파일 폴더
 
 # 함수 실행
