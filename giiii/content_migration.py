@@ -31,8 +31,8 @@ def merge_etf_data(file1, file2, output_file):
         print(f"병합 과정에서 오류 발생: {e}")
 
 # 파일 경로 설정
-file1 = "ETF_상세/ETF_상세정보.csv"  # 예: 종목코드 있음
-file2 = "ETF_상세/전종목기본정보.csv"  # 예: 표준코드 및 전체정보 포함
-output_file = "ETF_상세/merged_etf_data.csv"
+file1 = "ETF_PDF_분류기준/ETF_상세정보.csv"  # 예: 종목코드 있음
+file2 = "ETF_PDF_분류기준/전종목기본정보.csv"  # 예: 표준코드 및 전체정보 포함
+output_file = "ETF_PDF_분류기준/merged_etf_data.csv"
 
 merge_etf_data(file1, file2, output_file)

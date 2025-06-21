@@ -18,7 +18,7 @@ def clean_column_names(input_file, output_file):
         print(f"오류 발생: {e}")
 
 # 파일 경로 설정
-input_file = "ETF_상세/merged_etf_data_cleaned.csv"  # 원본 파일 경로
-output_file = "ETF_상세/etf_pdf관련지표(시퀀스있는).csv"  # 결과 파일 경로
+input_file = "ETF_PDF_분류기준/merged_etf_data_cleaned.csv"  # 원본 파일 경로
+output_file = "ETF_PDF_분류기준/etf_pdf관련지표(시퀀스있는).csv"  # 결과 파일 경로
 
 clean_column_names(input_file, output_file)
