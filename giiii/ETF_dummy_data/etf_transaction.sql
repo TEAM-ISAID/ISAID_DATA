@@ -16,16 +16,16 @@ INSERT INTO etf_transaction (etf_id, isa_account_id, transaction_type, quantity,
 
 INSERT INTO etf_transaction (etf_id, isa_account_id, transaction_type, quantity, price, transaction_at) VALUES
 -- 2025년 3월 데이터 (추가 BUY, SELL)
-(1, 6, 'BUY', 15.000000, 9390.00, '2025-02-03 09:45:00'),
-(26, 6, 'SELL', 10.000000, 33904.00, '2025-02-03 10:30:00'),
-(40, 6, 'SELL', 20.000000, 34210.00, '2025-02-03 11:15:00'),
-(353, 6, 'BUY', 15.000000, 12970.00, '2025-02-03 15:30:00');
+(1, 6, 'BUY', 15.000000, 9390.00, '2025-03-03 09:45:00'),
+(26, 6, 'SELL', 10.000000, 33904.00, '2025-03-03 10:30:00'),
+(40, 6, 'SELL', 20.000000, 34210.00, '2025-03-03 11:15:00'),
+(353, 6, 'BUY', 15.000000, 12970.00, '2025-03-03 15:30:00');
 
 INSERT INTO etf_transaction (etf_id, isa_account_id, transaction_type, quantity, price, transaction_at) VALUES
 -- 2025년 4월 데이터 (추가 BUY, SELL)
-(197, 6, 'BUY', 25.000000, 40500.00, '2025-04-03 09:45:00'),
-(295, 6, 'BUY', 30.000000, 13090.00, '2025-04-03 09:45:00'),
-(353, 6, 'SELL', 10.000000, 13320.00, '2025-04-03 10:30:00')
+(197, 6, 'BUY', 25.000000, 40500.00, '2025-04-01 09:45:00'),
+(295, 6, 'BUY', 30.000000, 13090.00, '2025-04-01 09:45:00'),
+(353, 6, 'SELL', 10.000000, 13320.00, '2025-04-01 10:30:00')
 ;
 
 INSERT INTO etf_transaction (etf_id, isa_account_id, transaction_type, quantity, price, transaction_at) VALUES
