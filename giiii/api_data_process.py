@@ -26,7 +26,7 @@ def fetch_etf_daily_trade_data(base_date: str):
         return None
 
 if __name__ == "__main__":
-    base_date = "20250623"
+    base_date = "20250624"
     result = fetch_etf_daily_trade_data(base_date)
     if result:
         import pandas as pd
