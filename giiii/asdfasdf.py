@@ -12,10 +12,6 @@ def process_etf_files_with_codes(input_folder, codes_folder):
             file_path = os.path.join(input_folder, file)
             date_name = os.path.splitext(file)[0]
 
-            # # 날짜명으로 폴더 생성
-            # output_folder = os.path.join(input_folder, date_name)
-            # os.makedirs(output_folder, exist_ok=True
-
             # CSV 읽기 (ETF 데이터)
             etf_df = pd.read_csv(file_path, encoding='utf-8-sig')
 
@@ -33,7 +29,7 @@ def process_etf_files_with_codes(input_folder, codes_folder):
                     # 종목코드 파일 읽기
                     if code_file.endswith('.csv'):
                         code_df = pd.read_csv(code_file_path, encoding='utf-8-sig')
-                    else:  # .txt 파일의 경우 처리
+                    else:
                         code_df = pd.read_csv(code_file_path, header=None, names=['종목코드'], encoding='utf-8-sig')
 
                     # 종목코드를 문자열로 변환 및 필터링
